@@ -17,11 +17,11 @@ export const Skills = ({ skills }) => {
   };
 
   const renderSkills = () => {
-    return <SkillsDefault skills={skills} />;
+    // return <SkillsDefault skills={skills} />;
     // return <SkillsSimple levelColors={levelColors} skills={skills} />;
     // return <SkillsGrouped skills={skills} />;
     // return <SkillsProgress skills={skills} />;
-    // return <SkillsIcons skills={skills} />;
+    return <SkillsIcons skills={skills} />;
     // return <SkillsInteractive skills={skills} />;
     // return <SkillsDetails skills={skills} />;
   };

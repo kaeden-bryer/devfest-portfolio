@@ -61,7 +61,7 @@ export const Footer = ({ social, name }) => {
   ];
 
   const renderFooter = () => {
-    return <FooterDefault name={name} socialLinks={socialLinks} />;
+    // return <FooterDefault name={name} socialLinks={socialLinks} />;
     // return (
     //   <FooterSimple
     //     currentYear={currentYear}
@@ -83,13 +83,13 @@ export const Footer = ({ social, name }) => {
     //     socialLinks={socialLinks}
     //   />
     // );
-    // return (
-    //   <FooterGlass
-    //     currentYear={currentYear}
-    //     name={name}
-    //     socialLinks={socialLinks}
-    //   />
-    // );
+    return (
+      <FooterGlass
+        currentYear={currentYear}
+        name={name}
+        socialLinks={socialLinks}
+      />
+    );
   };
 
   return renderFooter();

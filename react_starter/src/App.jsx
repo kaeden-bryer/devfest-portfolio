@@ -44,13 +44,12 @@ function App() {
         5. Deploy your portfolio and share it with the world!
         6. Profit???
       */}
-      <StarterInstructions />
 
-      {/* <Header personal={personal} /> */}
-      {/* <About avatar={avatar} bio={bio} /> */}
-      {/* <Skills skills={skills} /> */}
-      {/* <Projects projects={projects} /> */}
-      {/* <Footer social={social} name={name} /> */}
+      <Header personal={personal} />
+      <About avatar={avatar} bio={bio} />
+      <Skills skills={skills} />
+      <Projects projects={projects} />
+      <Footer social={social} name={name} />
     </div>
   );
 }

@@ -7,25 +7,28 @@
  * By changing data here, your entire portfolio updates automatically! Try it out while the development server is running.
  */
 
+// Import your avatar image
+import avatar from "../assets/avatar.png";
+
 // TODO: Add a image for the personal section and project placeholders
 export const portfolioData = {
   // Personal Information
   personal: {
-    name: "Your Name",
+    name: "Kaeden Bryer",
     title: "Full Stack Developer",
     // Path to your avatar / headshot image
     // For a placeholder you can use this - https://placehold.co/600x400/34A853/FFFFFF?text=Your+Name
-    avatar: "/path/to/avatar.jpg",
+    avatar: avatar,
     bio: "I'm a passionate developer who loves building beautiful, functional web applications. I specialize in modern JavaScript frameworks and creating seamless user experiences.",
-    email: "your.email@example.com",
-    portfolio: "https://yourwebsite.com",
+    email: "kaedenbrye@gmail.com",
+    portfolio: "https://kaedenbryer.com",
     // Social links
     // TODO: Feel free to add more social links if needed
     // Create components similar to those in `src/components/Icons/` & update how they're used in place like `Footer.jsx`, `Header.jsx`, and other places you want to display your social icons
     social: {
-      github: "https://github.com/yourusername",
-      linkedin: "https://linkedin.com/in/yourusername",
-      twitter: "https://twitter.com/yourusername",
+      github: "https://github.com/kaeden-bryer",
+      linkedin: "https://linkedin.com/in/kaeden-bryer",
+      twitter: "https://twitter.com/kaeden-bryer",
     },
   },
 
